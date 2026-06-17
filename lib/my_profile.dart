@@ -66,37 +66,6 @@ class _MyProfileState extends State<MyProfile> {
                 ],
               ),
             ),
-            // Social buttons row
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 16),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  _buildActionButton(
-                    icon: Icons.facebook,
-                    label: 'Social',
-                    onTap: () {
-                      // Social tap action
-                    },
-                  ),
-                  _buildActionButton(
-                    icon: Icons.email,
-                    label: 'Email',
-                    onTap: () {
-                      // Email tap action
-                    },
-                  ),
-                  _buildActionButton(
-                    icon: Icons.share,
-                    label: 'Share',
-                    onTap: () {
-                      // Share tap action
-                    },
-                  ),
-                ],
-              ),
-            ),
-            // Thin Divider line
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               child: Divider(height: 1, color: Colors.grey.shade300),
